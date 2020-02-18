@@ -1,0 +1,26 @@
+body{
+    background-color: beige;
+color: violet;
+}
+h3,h1{
+    text-align: center;
+    border-style: dotted;
+    border-color: indigo;
+}
+
+
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.fav{
+    margin: 20px;
+}
+li{
+    color:gray;
+}
+#foot{
+    margin: 20px;
+    padding: 20px;
+}
