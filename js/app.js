@@ -82,7 +82,7 @@ var  color=prompt("Is my fav color pink??", "yes/y  no/n");
 }
 
 function game2(){
- var number= prompt("guess what  is the number ?")
+ var number=  parseInt(prompt("guess what  is the number ?"))
  var atempts=0;
  var msg;
 while (atempts<4)
@@ -90,7 +90,7 @@ while (atempts<4)
     if(number<4 ){
         alert("too low ");
         console.log("the num is ",number);
-        var number= prompt("try agine ?");
+        var number= parseInt (prompt("try agine ?"));
         atempts=atempts+1;
         console.log( "attep",atempts);}
 
@@ -101,7 +101,7 @@ while (atempts<4)
 
         alert("too high");
         console.log("the num is ",number);
-        var number= prompt("try again ?");
+        var number=parseInt( prompt("try again ?"));
         atempts=atempts+1;
         console.log( "att",atempts);
 
