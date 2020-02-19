@@ -1,5 +1,6 @@
 'use strict';
 var result=0;
+function game1(){
  var  name=prompt("Is my name Muna?", "yes/y  no/n");
 
  if((name.toUpperCase() =='YES' || name.toUpperCase()=='Y') && (name.toLowerCase() =='yes' || name.toLowerCase()=='y'))
@@ -78,6 +79,9 @@ var  color=prompt("Is my fav color pink??", "yes/y  no/n");
 
      var resultgradeation= alert("no you`r wrong ");
  }
+}
+
+function game2(){
  var number= prompt("guess what  is the number ?")
  var atempts=0;
  var msg;
@@ -116,7 +120,9 @@ while (atempts<4)
 
 if(atempts==4){
  msg= alert("game over the number is 4");
-}
+}}
+
+function game3 (){
 var answer;
 var favcars = ["BMW", "maracdes", "bejo", "kia", "hounda",];
 answer=prompt("enter the name of my car ?");
@@ -133,7 +139,14 @@ prompt("try agine");
 
 }
 if(counter==6)
-alert("sorry you have tried many times");
+alert("sorry you have tried many times");}
+
+
+var fun1 = game1();
+var fun2 = game2();
+var fun13 = game3();
+
+
 var state= alert("hello ");
 var Name= prompt("plz enter your name ");
 var welcome= alert("hello"+ Name+" wlecome to our website ");
